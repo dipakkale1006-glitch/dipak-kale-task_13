@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd Checker - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1><span>Task 13:</span> JavaScript - Even or Odd Checker</h1>
+
+        <div class="calculator">
+            <div class="screen">
+                <p>Even / Odd Status</p>
+                <h2 id="resultDisplay">Enter a Number</h2>
+            </div>
+
+            <form id="evenOddForm">
+                <label for="numInput">Enter Any Number</label>
+                <input type="number" id="numInput" placeholder="e.g. 5, 10, 27, 48" required>
+
+                <button type="submit" id="checkBtn">Check Number</button>
+                <button type="reset" class="reset" id="resetBtn">Reset</button>
+            </form>
+
+            <div class="output">
+                <p>Entered Number: <strong id="outNumber">-</strong></p>
+                <p>Calculation: <strong id="outCalc">-</strong></p>
+                <p>Result: <strong id="outResult">-</strong></p>
+            </div>
+        </div>
+
+        <!-- Predefined Variables Console Log Section -->
+        <div class="predefined-card">
+            <h3>Predefined Variables (Logged to Console)</h3>
+            <p class="desc">As per assignment instructions, the following 4 variables are evaluated using <code>if-else</code> statements and logged to the browser console on page load:</p>
+            
+            <div class="variable-grid">
+                <div class="var-box odd">
+                    <span class="var-label">Variable 1</span>
+                    <span class="var-name">let number1 = 5;</span>
+                    <span class="var-tag">Odd</span>
+                </div>
+                <div class="var-box even">
+                    <span class="var-label">Variable 2</span>
+                    <span class="var-name">let number2 = 10;</span>
+                    <span class="var-tag">Even</span>
+                </div>
+                <div class="var-box odd">
+                    <span class="var-label">Variable 3</span>
+                    <span class="var-name">let number3 = 17;</span>
+                    <span class="var-tag">Odd</span>
+                </div>
+                <div class="var-box even">
+                    <span class="var-label">Variable 4</span>
+                    <span class="var-name">let number4 = 24;</span>
+                    <span class="var-tag">Even</span>
+                </div>
+            </div>
+
+            <div class="console-box">
+                <div class="console-header">
+                    <span>Browser Console Preview (Press F12)</span>
+                </div>
+                <pre class="console-code">The number 5 is odd.
+The number 10 is even.
+The number 17 is odd.
+The number 24 is even.</pre>
+            </div>
+        </div>
+
+        <footer>Made with HTML, CSS & JavaScript | Dipak Kale</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
